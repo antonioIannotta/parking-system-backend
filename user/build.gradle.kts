@@ -23,7 +23,7 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktorVersion")
     implementation("org.mongodb:mongodb-driver-sync:$mongoDriverVersion")
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
-    implementation("org.apache.commons:commons-email:1.5")
+    implementation("org.apache.commons:commons-email:1.6.0")
     testImplementation("io.ktor:ktor-server-test-host:$ktorVersion")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
     testImplementation("org.junit.jupiter:junit-jupiter:$jUnitVersion")
