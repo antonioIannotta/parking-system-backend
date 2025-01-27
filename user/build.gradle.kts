@@ -7,8 +7,8 @@ val logbackVersion: String by project
 val jUnitVersion: String by project
 
 plugins {
-    kotlin("jvm") version "1.8.10"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.8.10"
+    kotlin("jvm") version "1.9.25"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.25"
 }
 
 group = projectGroup
